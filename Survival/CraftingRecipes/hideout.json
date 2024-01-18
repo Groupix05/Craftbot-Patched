@@ -1,0 +1,568 @@
+// this file is NOT generated
+[
+	{
+		"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf", //obj_consumable_component
+		"quantity": 10,
+		"craftTime": 0,
+		"ingredientList": [
+		{
+				"quantity": 2,
+				"itemId": "bc69cb3b-7e0c-4c36-805d-f8d89fcfced3"
+			},
+			{
+				"quantity": 3,
+				"itemId": "9cd8288c-5a19-479f-af47-9eb55230ade2"
+			},
+			{
+				"quantity": 3,
+				"itemId": "1dcd74ca-39ba-4b00-a36a-3381b25055f4"
+			}
+			
+		]
+	},
+	{
+		"itemId": "267e0c93-62e3-45ad-9470-a14035cb9ca4", //obj_resource_ember
+		"quantity": 10,
+		"craftTime": 0,
+		"ingredientList": [
+		{
+				"quantity": 2,
+				"itemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
+			}
+			
+		]
+	},
+	{
+		"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a", //obj_resource_beewax
+		"quantity": 10,
+		"craftTime": 0,
+		"ingredientList": [
+		{
+				"quantity": 2,
+				"itemId": "0bc74539-df8a-47c7-aad8-d55d809a01e4"
+			}
+			
+			
+		]
+	},
+	{
+		"itemId": "40e8bd0d-04a0-4e95-b593-4038b54b156f", //obj_resources_slimyclam
+		"quantity": 10,
+		"craftTime": 0,
+		"ingredientList": [
+		{
+				"quantity": 2,
+				"itemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
+			}
+			
+			
+		]
+	},
+	{
+		"itemId": "c9396a42-67c3-4fa3-b682-31428ff9eced", //obj_resource_flower
+		"quantity": 20,
+		"craftTime": 0,
+		"ingredientList": [
+		{
+				"quantity": 2,
+				"itemId": "1dcd74ca-39ba-4b00-a36a-3381b25055f4"
+			}
+			
+			
+		]
+	},
+	{
+		"itemId": "1147e59d-6940-42b4-840b-07f05054f5e0", //obj_resource_crudeoil
+		"quantity": 10,
+		"craftTime": 0,
+		"ingredientList": [
+		{
+				"quantity": 1,
+				"itemId": "e77d9577-589a-446b-96c1-f6d0d7495489"
+			}
+			
+			
+		]
+	},
+	{
+		"itemId": "d4d68946-aa03-4b8f-b1af-96b81ad4e305", //obj_consumable_gas
+		"quantity": 10,
+		"craftTime": 0,
+		"ingredientList": [
+		{
+				"quantity": 2,
+				"itemId": "9cd8288c-5a19-479f-af47-9eb55230ade2"
+			}
+			
+		]
+	},
+	{
+		"itemId": "9a3e478c-2224-44fa-887c-239965bd05ad", //obj_consumable_soilbag
+		"quantity": 5,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "9cd8288c-5a19-479f-af47-9eb55230ade2"
+			}
+		]
+	},
+	{
+		"itemId": "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67", //obj_consumable_fertilizer
+		"quantity": 10,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
+			}
+		]
+	},
+	{
+		"itemId": "22beade5-38ca-47b4-a2ee-32403f58a862", //obj_seed_banana
+		"quantity": 5,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 3,
+				"itemId": "9cd8288c-5a19-479f-af47-9eb55230ade2"
+			}
+		]
+	},
+	{
+		"itemId": "bee966b0-b5e5-41da-b992-5d363ab85ae4", //obj_seed_orange
+		"quantity": 5,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 3,
+				"itemId": "1dcd74ca-39ba-4b00-a36a-3381b25055f4"
+			}
+		]
+	},
+	{
+		"itemId": "4b6d2bee-d0f1-4e56-96f0-d2596388cad2", //obj_seed_blueberry
+		"quantity": 5,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 3,
+				"itemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
+			}
+		]
+	},
+	{
+		"itemId": "93c27ab2-4930-4654-ba1c-bcfe35e966f6", //obj_seed_cotton
+		"quantity": 5,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 3,
+				"itemId": "0bc74539-df8a-47c7-aad8-d55d809a01e4"
+			}
+		]
+	},
+	{
+		"itemId": "3e10ef67-383a-4b60-aa5b-b1173134e437", //obj_powertools_sawblade
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 5,
+				"itemId": "1dcd74ca-39ba-4b00-a36a-3381b25055f4"
+			}
+		]
+	},
+	{
+		"itemId": "276fd55b-ae54-4a7a-ace6-fddd2d3370a5", //obj_powertools_drill
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 5,
+				"itemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
+			}
+		]
+	},
+	{
+		"itemId": "454ad69d-bac2-4b06-9386-6267bcbfece2", //obj_interactive_mountablespudgun
+		"quantity": 1,
+		"craftTime": 32,
+		"ingredientList": [
+			{
+				"quantity": 2,
+				"itemId": "0bc74539-df8a-47c7-aad8-d55d809a01e4"
+			},
+			{
+				"quantity": 1,
+				"itemId": "e77d9577-589a-446b-96c1-f6d0d7495489"
+			}
+		]
+	},
+	{
+		"itemId": "096d4daf-639e-4947-a1a6-1890eaa94464", //obj_container_ammo
+		"quantity": 1,
+		"craftTime": 32,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1dcd74ca-39ba-4b00-a36a-3381b25055f4"
+			},
+			{
+				"quantity": 1,
+				"itemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
+			}
+		]
+	},
+	{
+		"itemId": "c5ea0c2f-185b-48d6-b4df-45c386a575cc", //tool_spudgun
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 2,
+				"itemId": "c10a77d5-3357-4cb4-8113-a2cbe69c7ff2"
+			},
+			{
+				"quantity": 2,
+				"itemId": "e77d9577-589a-446b-96c1-f6d0d7495489"
+			},
+			{
+				"quantity": 1,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		]
+	},
+	{
+		"itemId": "f6250bf4-9726-406f-a29a-945c06e460e5", //tool_shotgun
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 4,
+				"itemId": "99477093-e819-4199-b62a-fda6143aae89"
+			},
+			{
+				"quantity": 1,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		]
+	},
+	{
+		"itemId": "9fde0601-c2ba-4c70-8d5c-2a7a9fdd122b", //tool_gatling
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 5,
+				"itemId": "bc69cb3b-7e0c-4c36-805d-f8d89fcfced3"
+			},
+			{
+				"quantity": 2,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		]
+	},
+	{
+		"itemId": "63695efd-0862-49f2-ace6-4d1758147fae", //obj_outfitpackage_common
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "c10a77d5-3357-4cb4-8113-a2cbe69c7ff2"
+			},
+			{
+				"quantity": 1,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		]
+	},
+	{
+		"itemId": "27a221b1-9809-4df1-901a-caafe119c9b6", //obj_outfitpackage_rare
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 2,
+				"itemId": "99477093-e819-4199-b62a-fda6143aae89"
+			},
+			{
+				"quantity": 2,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		]
+	},
+	{
+		"itemId": "7ab0cac7-b055-4283-b0bc-f85dd4d0416b", //obj_outfitpackage_epic
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+			{
+				"quantity": 3,
+				"itemId": "99477093-e819-4199-b62a-fda6143aae89"
+			},
+			{
+				"quantity": 3,
+				"itemId": "bc69cb3b-7e0c-4c36-805d-f8d89fcfced3"
+			},
+			{
+				"quantity": 3,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			}
+		]
+	},
+	{
+		"itemId": "cb7305b2-d8b5-4302-aff3-6cdd9212ca64", //obj_consumable_sunshake
+		"quantity": 5,
+		"craftTime": 0,
+		"ingredientList": [
+		{
+				"quantity": 3,
+				"itemId": "9cd8288c-5a19-479f-af47-9eb55230ade2"
+			}
+			
+			
+		]
+	},
+	{
+		"itemId": "54d84731-d9ec-435d-bc9d-d48e0763b1bf", //obj_consumable_pizzaburger
+		"quantity": 5,
+		"craftTime": 0,
+		"ingredientList": [
+		{
+				"quantity": 2,
+				"itemId": "99477093-e819-4199-b62a-fda6143aae89"
+			}
+			
+		]
+	},
+	{
+		"itemId": "ad35f7e6-af8f-40fa-aef4-77d827ac8a8a", //obj_container_chest
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+		{
+				"quantity": 3,
+				"itemId": "c10a77d5-3357-4cb4-8113-a2cbe69c7ff2"
+			},
+		{
+				"quantity": 1,
+				"itemId": "e77d9577-589a-446b-96c1-f6d0d7495489"
+			}
+			
+			
+		]
+	},
+	{
+		"itemId": "fcfae5e2-1df9-47d8-bb9a-30bec9b5b1f5", //obj_container_smallchest
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+		{
+				"quantity": 1,
+				"itemId": "c10a77d5-3357-4cb4-8113-a2cbe69c7ff2"
+			},
+		{
+				"quantity": 1,
+				"itemId": "e77d9577-589a-446b-96c1-f6d0d7495489"
+			}
+			
+			
+		]
+	},
+	{
+		"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39", //blk_scrapmetal
+		"quantity": 100,
+		"craftTime": 0,
+		"ingredientList": [
+		{
+				"quantity": 3,
+				"itemId": "9cd8288c-5a19-479f-af47-9eb55230ade2"
+			}
+			
+			
+		]
+	},
+	{
+		"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac", //blk_scrapstone
+		"quantity": 100,
+		"craftTime": 0,
+		"ingredientList": [
+		{
+				"quantity": 3,
+				"itemId": "e77d9577-589a-446b-96c1-f6d0d7495489"
+			}
+			
+			
+		]
+	},
+	{
+		"itemId": "ffa3a47e-fc0d-4977-802f-bd15683bbe5c", //obj_interactive_driverseat_05
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+		{
+				"quantity": 1,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			},
+		{
+				"quantity": 5,
+				"itemId": "e77d9577-589a-446b-96c1-f6d0d7495489"
+			},
+		{
+				"quantity": 3,
+				"itemId": "1dcd74ca-39ba-4b00-a36a-3381b25055f4"
+			}
+			
+			
+		]
+	},
+	{
+		"itemId": "9dd1ccea-1e44-430d-b706-3ff45416583e", //obj_interactive_driversaddle_05
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+		{
+				"quantity": 1,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			},
+		{
+				"quantity": 5,
+				"itemId": "e77d9577-589a-446b-96c1-f6d0d7495489"
+			},
+		{
+				"quantity": 2,
+				"itemId": "1dcd74ca-39ba-4b00-a36a-3381b25055f4"
+			}
+			
+			
+		]
+	},
+	{
+		"itemId": "3091926a-9340-46d9-83d6-4fd7c68ad950", //obj_interactive_gasengine_05
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+		{
+				"quantity": 1,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			},
+		{
+				"quantity": 4,
+				"itemId": "99477093-e819-4199-b62a-fda6143aae89"
+			},
+		{
+				"quantity": 3,
+				"itemId": "c10a77d5-3357-4cb4-8113-a2cbe69c7ff2"
+			}
+			
+			
+		]
+	},
+	{
+		"itemId": "22f3e797-82f5-4819-a085-c3cc28ec9025", //obj_interactive_electricengine_05
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+		{
+				"quantity": 1,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			},
+		{
+				"quantity": 4,
+				"itemId": "bc69cb3b-7e0c-4c36-805d-f8d89fcfced3"
+			},
+		{
+				"quantity": 4,
+				"itemId": "c10a77d5-3357-4cb4-8113-a2cbe69c7ff2"
+			}
+			
+			
+		]
+	},
+	{
+		"itemId": "a736ffdf-22c1-40f2-8e40-988cab7c0559", //obj_interactive_thruster_05
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+		{
+				"quantity": 2,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			},
+		{
+				"quantity": 7,
+				"itemId": "bc69cb3b-7e0c-4c36-805d-f8d89fcfced3"
+			},
+		{
+				"quantity": 10,
+				"itemId": "e77d9577-589a-446b-96c1-f6d0d7495489"
+			}
+			
+			
+		]
+	},
+	{
+		"itemId": "a092359d-5cea-484d-a274-470d9a567632", //obj_interactive_controller_05
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+		{
+				"quantity": 1,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			},
+		{
+				"quantity": 5,
+				"itemId": "c10a77d5-3357-4cb4-8113-a2cbe69c7ff2"
+			},
+		{
+				"quantity": 3,
+				"itemId": "e77d9577-589a-446b-96c1-f6d0d7495489"
+			}
+			
+			
+		]
+	},
+	{
+		"itemId": "20dcd41c-0a11-4668-9b00-97f278ce21af", //obj_interactive_sensor_05
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+		{
+				"quantity": 1,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			},
+		{
+				"quantity": 2,
+				"itemId": "c10a77d5-3357-4cb4-8113-a2cbe69c7ff2"
+			},
+		{
+				"quantity": 2,
+				"itemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
+			}
+			
+			
+		]
+	},
+	{
+		"itemId": "2f004fdf-bfb0-46f3-a7ac-7711100bee0c", //jnt_interactive_piston_05
+		"quantity": 1,
+		"craftTime": 0,
+		"ingredientList": [
+		{
+				"quantity": 1,
+				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+			},
+		{
+				"quantity": 4,
+				"itemId": "e77d9577-589a-446b-96c1-f6d0d7495489"
+			},
+		{
+				"quantity": 3,
+				"itemId": "9cd8288c-5a19-479f-af47-9eb55230ade2"
+			}
+			
+			
+		]
+	}
+]
