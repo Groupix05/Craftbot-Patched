@@ -1,0 +1,191 @@
+{
+   "partList" : [
+      {
+         "carryItem" : true,
+         "color" : "df7f01",
+         "flammable" : false,
+         "hull" : {
+            "col" : "$CONTENT_DATA/Objects/Collision/char_craftbot_col.obj",
+            "x" : 10,
+            "y" : 8,
+            "z" : 9
+         },
+         "name" : "obj_craftbot_recyclebot",
+         "physicsMaterial" : "Metal",
+         "pipe" : {
+            "openings" : [
+               {
+                  "side" : "+X",
+                  "x" : 5.0,
+                  "y" : -2.50,
+                  "z" : 0.0
+               },
+               {
+                  "side" : "-X",
+                  "x" : -5.0,
+                  "y" : -2.50,
+                  "z" : 0.0
+               }
+            ]
+         },
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 7,
+            "durability" : 7,
+            "friction" : 6
+         },
+         "renderable" : "$CONTENT_DATA/Character/Char_Recyclebot/char_craftbot.rend",
+         "rotationSet" : "PropY",
+         "scripted" : {
+            "classname" : "Craftbot",
+            "filename" : "$CONTENT_DATA/Scripts/game/Craftbot+/Crafter.lua"
+         },
+         "sticky" : "-Z+Y-Y+X-X",
+         "uuid" : "b0b933d1-8112-4383-be48-7b6e37d38c53"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "0a4444",
+         "consumable" : true,
+         "destroyTime" : 1.0,
+         "flammable" : true,
+         "name" : "anyof_seed",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 3,
+            "density" : 3,
+            "durability" : 2,
+            "friction" : 4
+         },
+         "renderable" : "$GAME_DATA/Objects/Renderable/Interactive/obj_interactive_logicgate.rend",
+         "rotationSet" : "PropFull",
+         "stackSize" : 100000,
+         "uuid" : "713705a4-db7d-4485-a268-f9b4cb2885a8"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "0a4444",
+         "consumable" : true,
+         "destroyTime" : 1.0,
+         "flammable" : true,
+         "name" : "anyof_glass",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 3,
+            "density" : -5,
+            "durability" : 2,
+            "friction" : 4
+         },
+         "renderable" : "$GAME_DATA/Objects/Renderable/Interactive/obj_interactive_logicgate.rend",
+         "rotationSet" : "PropFull",
+         "stackSize" : 100000,
+         "uuid" : "0c44e6cb-90c5-48bd-b717-c7a210cee110"
+      },
+      {
+         "color" : "3495e8",
+         "flammable" : false,
+         "hull" : {
+            "col" : "$SURVIVAL_DATA/Objects/Collision/obj_decor_mirror.obj",
+            "x" : 3,
+            "y" : 4,
+            "z" : 1
+         },
+         "name" : "obj_decor_mirror_reflective",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 2,
+            "density" : 4,
+            "durability" : 3,
+            "friction" : 4
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$SURVIVAL_DATA/Objects/Mesh/decor/obj_decor_mirror.fbx",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsgNor",
+                        "textureList" : [
+                           "$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_mirror_dif.tga",
+                           "$CONTENT_DATA/Objects/Textures/decor/obj_decor_mirror_reflective_asg.tga",
+                           "$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_mirror_nor.tga"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "PropYZmX",
+         "stackSize" : 5,
+         "sticky" : "-Z+Y-Y+X-X",
+         "uuid" : "2324091b-135a-4953-85ed-26ff03474108"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "cd9d71",
+         "flammable" : true,
+         "name" : "obj_scrap_headlight",
+         "physicsMaterial" : "Plastic",
+         "ratings" : {
+            "buoyancy" : 5,
+            "density" : 2,
+            "durability" : 2,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$GAME_DATA/Objects/Mesh/lights/obj_light_headlight_off.fbx",
+                  "pose0" : "$GAME_DATA/Objects/Mesh/lights/obj_light_headlight_on.fbx",
+                  "subMeshMap" : {
+                     "lightcone_mat" : {
+                        "material" : "PoseAnimLightCone",
+                        "textureList" : [
+                           "$GAME_DATA/Objects/Textures/lights/obj_light_headlightbeam_dif.tga",
+                           "",
+                           ""
+                        ]
+                     },
+                     "lightflare_mat" : {
+                        "material" : "PoseAnimLightFlare",
+                        "textureList" : [
+                           "$GAME_DATA/Objects/Textures/lights/obj_light_headlightflare_dif.tga",
+                           "",
+                           ""
+                        ]
+                     },
+                     "lightmesh_mat" : {
+                        "material" : "PoseAnimDifAsgNor",
+                        "textureList" : [
+                           "$CONTENT_DATA/Objects/Textures/lights/obj_light_scrap_headlight_dif.tga",
+                           "$CONTENT_DATA/Objects/Textures/lights/obj_light_scrap_headlight_asg.tga",
+                           "$CONTENT_DATA/Objects/Textures/lights/obj_light_scrap_headlight_nor.tga"
+                        ]
+                     }
+                  }
+               }
+            ]
+         },
+         "rotationSet" : "PropZY",
+         "scripted" : {
+            "classname" : "scrapLight",
+            "filename" : "$CONTENT_DATA/Scripts/game/Craftbot+/ScrapLight.lua"
+         },
+         "stackSize" : 5,
+         "sticky" : "-X+X-Y+Y-Z",
+         "uuid" : "0aa0d573-7743-47ea-a61c-cc6a7af04ff1"
+      }
+   ]
+}
