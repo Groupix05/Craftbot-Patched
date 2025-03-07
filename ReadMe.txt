@@ -1,5 +1,8 @@
-Nice, you found the folder you were looking for! To continue with the install please follow the steps bellow:
-Copy the files inside of the folder named "Scrap Mechanic" (the one in the same place as this ReadMe file) to your Scrap Mechanic folder.
+MANUAL (without SMML)
+------------------------------------------------------------
+
+
+Copy the files inside of the folder named "ModFiles" to your Scrap Mechanic folder.
 "Steam\steamapps\common\Scrap Mechanic"
 
 When asked about craftbot.json or anything else you must copy and replace for it to work.
@@ -13,6 +16,22 @@ _________________________________________________________
 To uninstall you need to redownload the entire game ,the "Survival" and "Data" folder. Delete them then verify the game in steam ,it will redownload them.
 
 _________________________________________________________
+
+
+
+
+
+
+
+[SSML]
+-------------------------------------------------------------
+
+Don't need to do anything, just install the mod via the mod launcher.
+
+
+
+
+
 
 COMPATIBILITY:
 Removed
