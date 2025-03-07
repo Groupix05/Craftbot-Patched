@@ -11,28 +11,6 @@
 		"title": "Vacuum Pipe Cross",
 		"description": "Split a vacuum pipe connection into 3 more ones!\n\n#7e7a6dThis part was added by #786e40Craftbot+#7e7a6d but was made by #684c8bXeridox#7e7a6d. Thanks to him for letting me use his part!\n\n#787878If recycled:#648181 7x #787878Metal Block 1,#648181 10x #787878Glass Blocks,#648181 2x #787878Circuit Boards"
 	},
-	"c1de3e95-e1e9-4185-b868-557390f94399": {
-		"title": "obj_craftbot_tapingebot_deactivated",
-		"description": "PLACEHOLDER"
-	},
-	"f16c5c94-ae7d-4cd8-b046-26a4df1903c6": {
-		"title": "obj_craftbot_tapingebot",
-		"description": "PLACEHOLDER"
-	},
-	"f7d689eb-a198-45be-b12a-103dc06d02fe": {
-		"title": "Fix this bot",
-		"description": "Something has happend to this bot. Who knows what those crazy tapebots have been doing! The software is corrupted and everything is wrong. Maybe you can help and make the bot happy agian? It's assumed that this bot was used by the tapebots to make tape."
-	},
-
-	"713705a4-db7d-4485-a268-f9b4cb2885a8": {
-		"title": "Any type of seed",
-		"description": "DO NOT USE"
-	},
-	"0c44e6cb-90c5-48bd-b717-c7a210cee110": {
-		"title": "Any type of glass block",
-		"description": "DO NOT USE"
-	},
-
 	"2324091b-135a-4953-85ed-26ff03474108": {
 		"title": "Restrom Mirror",
 		"description": "#7e7a6dThis part was added by #786e40Craftbot+"
@@ -185,6 +163,13 @@
 	},
 	"1147e59d-6940-42b4-840b-07f05054f5e0": {
 		"title": "Crude Oil"
+	},
+	"120ee9c7-198b-4cb2-919d-51601ba2867e": {
+		"description": "Connect it to a trigger to close the curtains.",
+		"title": "Window With Curtains"
+	},
+	"1226cfd3-4fc8-4f9e-b21a-0c9576e2ef2f": {
+		"title": "obj_tool_handbook"
 	},
 	"126be16e-10c1-4ccd-82c5-368edc7f766a": {
 		"title": "obj_harvests_stones_p04"
@@ -392,6 +377,18 @@
 		"description": "#787878If recycled:#648181 15x #787878Scrap Metal Blocks,#648181 15x #787878Scrap Wood Blocks,#648181 2x #787878Glow,#648181 1x #787878Circuit Board",
 		"title": "Fresh Neon Sign"
 	},
+	"27e9c9ee-14c4-11ed-861d-0242ac120002": {
+		"title": "Square Mesh Wedge"
+	},
+	"27e9cc8c-14c4-11ed-861d-0242ac120002": {
+		"title": "Restroom Wedge"
+	},
+	"27e9cdcc-14c4-11ed-861d-0242ac120002": {
+		"title": "Diamond Plate Wedge"
+	},
+	"27e9d236-14c4-11ed-861d-0242ac120002": {
+		"title": "Aluminum Wedge"
+	},
 	"286faea5-83db-4f53-8813-1ce81309a059": {
 		"title": "obj_destructable_tape_cocoon02"
 	},
@@ -470,6 +467,9 @@
 		"description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Piston 2"
 	},
+	"32053708-14c7-11ed-861d-0242ac120002": {
+		"title": "Armored Glass Wedge"
+	},
 	"3292878f-4d1e-49e3-a80f-16b710dad42e": {
 		"title": "Large Pipe Extension"
 	},
@@ -507,6 +507,9 @@
 		"description": "Place Seeds and connect it to a Vacuum Pump with a trigger to shoot seeds in to soil.",
 		"title": "Seed Container"
 	},
+	"396c8a9a-14be-11ed-861d-0242ac120002": {
+		"title": "Spaceship Wedge"
+	},
 	"3a135dd2-510c-434b-b019-ce077042a5c8": {
 		"title": "obj_packingstation_crateload"
 	},
@@ -535,6 +538,9 @@
 	"3b972f2f-30c7-4a5e-a100-5e257e62295d": {
 		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Seat 1"
+	},
+	"3bb5dc9e-14bd-11ed-861d-0242ac120002": {
+		"title": "Glass Wedge"
 	},
 	"3bd4430f-75bc-452c-9e80-1bd639898689": {
 		"description": "Materials waiting to be transported into the warehouse or some other place. The recyclebot can be used to get the materials from this crate.\n\n#787878If recycled:#648181 10x #787878Scrap Metal Blocks,#648181 100x #787878Scrap Stone Blocks",
@@ -567,6 +573,15 @@
 	},
 	"3e6d2a8a-c836-4ae5-b6bf-9ec01c6393b0": {
 		"title": "obj_harvest_log_l02a"
+	},
+	"3f2e8e84-14c7-11ed-861d-0242ac120002": {
+		"title": "Worn Metal Wedge"
+	},
+	"3f2e9064-14c7-11ed-861d-0242ac120002": {
+		"title": "Spaceship Floor Wedge"
+	},
+	"3f2e92d0-14c7-11ed-861d-0242ac120002": {
+		"title": "Sand Wedge"
 	},
 	"3f7c3f3c-9b28-4a26-abbd-8f2948e9b027": {
 		"title": "obj_harvests_trees_pine03_p05"
@@ -650,10 +665,14 @@
 	"46ac20df-dfbc-434f-aaf3-f34ddc2afb42": {
 		"title": "obj_spaceship_wall03"
 	},
+	"46ef860a-14bd-11ed-861d-0242ac120002": {
+		"title": "Glass Tile Wedge"
+	},
 	"46f4a939-b20c-4fae-bf37-8410796a05f2": {
 		"title": "obj_destructable_tape_cornertape02"
 	},
 	"47062936-5d28-43ec-81b5-8fdb619e97e4": {
+		"description": "Let there be visibility! Connect to a trigger to turn on and off. Adjustable beam range.",
 		"title": "Ship Light"
 	},
 	"470b9a92-ed94-4ef2-b1ea-b45f47ef0982": {
@@ -721,6 +740,12 @@
 	"4e3f17bb-0169-4eb5-a4b4-84725a607b2c": {
 		"title": "obj_harvest_stonechunk02"
 	},
+	"4e72cd24-14c7-11ed-861d-0242ac120002": {
+		"title": "Punched Steel Wedge"
+	},
+	"4e72ce8c-14c7-11ed-861d-0242ac120002": {
+		"title": "Striped Net Wedge"
+	},
 	"4ec64cda-1a5b-4465-88b4-5ea452c4a556": {
 		"description": "A juicy Pineapple.",
 		"title": "Pineapple"
@@ -742,6 +767,9 @@
 	},
 	"50668b05-41de-4b48-abf2-6a576ab550fe": {
 		"title": "obj_destructable_tape_cornertape03"
+	},
+	"5115b997-5d8c-4815-8e07-f487cc1c029f": {
+		"title": "Bubble Plastic Wedge"
 	},
 	"513530b0-61bd-4b82-83e7-191d090d25d8": {
 		"title": "Metal Storage Floor"
@@ -770,6 +798,9 @@
 	},
 	"55b19e7f-e45b-48b2-8f7c-d9e84fed0736": {
 		"title": "obj_harvests_trees_birch01_p00"
+	},
+	"56b4d3fc-14bc-11ed-861d-0242ac120002": {
+		"title": "Barrier Wedge"
 	},
 	"56cea967-a685-494d-85ef-3aa121a0c193": {
 		"description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption.\n\n#787878If recycled:#648181 30x #787878Metal Block 1,#648181 5x #787878Batteries,#648181 10x #787878Circuit Boards,#648181 15x #787878Component Kits",
@@ -833,8 +864,39 @@
 	"5de17a8f-f447-4204-886e-6ba015347f89": {
 		"title": "obj_robotparts_farmbotpart_scytharm"
 	},
+	"5d5144be-14be-11ed-861d-0242ac120002": {
+		"title": "Cardboard Wedge"
+	},
+	"5dae0b3a-14bf-11ed-861d-0242ac120002": {
+		"title": "Wood Wedge 2"
+	},
+	"5dae0d42-14bf-11ed-861d-0242ac120002": {
+		"title": "Wood Wedge 3"
+	},
+	"5dae0e46-14bf-11ed-861d-0242ac120002": {
+		"title": "Scrap Metal Wedge"
+	},
+	"5dae0f2c-14bf-11ed-861d-0242ac120002": {
+		"title": "Metal Wedge 2"
+	},
+	"5dae1008-14bf-11ed-861d-0242ac120002": {
+		"title": "Metal Wedge 3"
+	},
+	"5dae14e0-14bf-11ed-861d-0242ac120002": {
+		"title": "Concrete Wedge 3"
+	},
+	"5dae15c6-14bf-11ed-861d-0242ac120002": {
+		"title": "Concrete Wedge 2"
+	},
+	"5dae16a2-14bf-11ed-861d-0242ac120002": {
+		"title": "Scrap Stone Wedge"
+	},
 	"5e3dff9b-2450-44ae-ad46-d2f6b5148cbf": {
 		"title": "Warehouse Square Light"
+	},
+	"5e51e905-2092-4069-9eb5-afa67b8b2fc8": {
+		"description": "Connect it to a trigger to close the blinds.",
+		"title": "Window With Blinds"
 	},
 	"5e57e0f7-e87c-4269-b274-146fe40e1b44": {
 		"description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption.\n\n#787878Upgrade this item to level#648181 5#787878 for it to be able to be recycled.",
@@ -1090,6 +1152,9 @@
 	"7bc20d55-6b49-450c-830c-16282ce7fb2d": {
 		"title": "Road Sign Base"
 	},
+	"7c6e88a7-21a4-4e97-856f-b937264e0d7d": {
+		"title": "Broken Clock"
+	},
 	"7d601a5a-796d-4cae-be88-b47479d38d11": {
 		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Driver's Saddle 1"
@@ -1179,6 +1244,9 @@
 	"8a4a55b0-0228-4839-933b-0716cedb3f96": {
 		"title": "Unfolded Banana Box"
 	},
+	"8aa4459f-6c45-41ae-94f4-4ddff0279c18": {
+		"title": "Farmer Target"
+	},
 	"8c0a32e1-50a4-4e23-be1d-a09d12fc65c1": {
 		"title": "obj_harvests_trees_pine03_p01"
 	},
@@ -1250,6 +1318,9 @@
 	"93e32c6b-b9de-4fed-ad9d-49f0850ee634": {
 		"title": "Scaffold Ledger"
 	},
+	"9404a6a2-14c0-11ed-861d-0242ac120002": {
+		"title": "Concrete Slab Wedge"
+	},
 	"94acfb72-c650-4cb5-a8aa-08af3e691d2e": {
 		"title": "Metal Storage Corner A"
 	},
@@ -1287,12 +1358,30 @@
 	"99477093-e819-4199-b62a-fda6143aae89": {
 		"title": "Broccoli Crate"
 	},
+	"996b107e-14be-11ed-861d-0242ac120002": {
+		"title": "Path Light Wedge"
+	},
 	"9a3058f3-6771-464f-a3e0-25d247f1422f": {
 		"title": "obj_survivalobject_cardreader_arm"
 	},
 	"9a3e478c-2224-44fa-887c-239965bd05ad": {
 		"description": "Use them on the ground to place your seeds in.",
 		"title": "Soil Bag"
+	},
+	"9acec674-14c1-11ed-861d-0242ac120002": {
+		"title": "Plaster Wedge"
+	},
+	"9acecbec-14c1-11ed-861d-0242ac120002": {
+		"title": "Carpet Wedge"
+	},
+	"9acecd22-14c1-11ed-861d-0242ac120002": {
+		"title": "Painted Wall Wedge"
+	},
+	"9acece58-14c1-11ed-861d-0242ac120002": {
+		"title": "Net Wedge"
+	},
+	"9acecf66-14c1-11ed-861d-0242ac120002": {
+		"title": "Solid Net Wedge"
 	},
 	"9b4a43c3-4950-49e2-858e-34768550a227": {
 		"title": "obj_destructable_tape_rooftape02"
@@ -1350,8 +1439,17 @@
 	"a20e79dd-d74e-4e10-845a-b101b3a95ab2": {
 		"title": "obj_harvests_trees_pine03_p02"
 	},
+	"a29f7c00-14c0-11ed-861d-0242ac120002": {
+		"title": "Extruded Metal Wedge"
+	},
+	"a29f7ce6-14c0-11ed-861d-0242ac120002": {
+		"title": "Rusted Metal Wedge"
+	},
 	"a2cf56fe-9961-481b-9a12-093f64867d9c": {
 		"title": "Packing Table Holder"
+	},
+	"a358c216-14b9-11ed-861d-0242ac120002": {
+		"title": "Metal Wedge 1"
 	},
 	"a479066d-4b03-46b5-8437-e99fec3f43ee": {
 		"title": "Striped Net Block"
@@ -1365,6 +1463,9 @@
 	"a5985971-1f95-4373-a5d9-4ce0a3e74851": {
 		"description": "Emits a tracking signal that can be toggled in the Logbook.\n\n#787878If recycled:#648181 7x #787878Metal Block 1,#648181 1x #787878Radio,#648181 10x #787878Circuit Boards",
 		"title": "Beacon"
+	},
+	"a5a857de-14be-11ed-861d-0242ac120002": {
+		"title": "Scrap Wood Wedge"
 	},
 	"a6523fd2-869c-4d11-ba42-dc967a8aad25": {
 		"title": "obj_harvests_trees_leafy03_p08"
@@ -1492,6 +1593,9 @@
 		"description": "The Craftbot will help you craft everything from new blocks to useful interactive parts. A mechanics best friend.",
 		"title": "Craftbot"
 	},
+	"b67c82e4-14bc-11ed-861d-0242ac120002": {
+		"title": "Tile Wedge"
+	},
 	"b7571f6f-9d53-44ba-99d2-3b4f05e6fd0f": {
 		"title": "Craftbot"
 	},
@@ -1554,6 +1658,12 @@
 	"bee966b0-b5e5-41da-b992-5d363ab85ae4": {
 		"title": "Orange Seed"
 	},
+	"bf3de51c-14c1-11ed-861d-0242ac120002": {
+		"title": "Plastic Wedge"
+	},
+	"bf3de7c4-14c1-11ed-861d-0242ac120002": {
+		"title": "Insulation Wedge"
+	},
 	"bf7b6484-8b8b-4846-8110-c5d9f0b9ada7": {
 		"title": "Vacuum Pipe 4"
 	},
@@ -1567,6 +1677,9 @@
 	},
 	"c0159b96-edf3-46cd-9fbe-96ee1126304b": {
 		"title": "Master Battery Socket"
+	},
+	"c01fbc1c-14bc-11ed-861d-0242ac120002": {
+		"title": "Brick Wedge"
 	},
 	"c0dfdea5-a39d-433a-b94a-299345a5df46": {
 		"description": "The hardest material in the game. Suitable for building walls to defend your crops during a raid or if you just want something that those annoying farmbots won't destroy quickly.\n\n#787878If recycled:#648181 20x #787878Metal Block 2,#648181 2x #787878Ember,#648181 4x #787878Water",
@@ -1622,7 +1735,8 @@
 	"c52c6da1-dad9-4649-b02f-34dec0bbd411": {
 		"title": "obj_harvests_trees_leafy01_p02"
 	},
-	"c563df47-9a8a-4338-9fec-06da1218c573": {
+	"c563df47-9a8a-4338-9fec-06da1218c573": {	
+		"description": "Take a lovely nap in this comfy bed.",
 		"title": "Bed"
 	},
 	"c56700d9-bbe5-4b17-95ed-cef05bd8be1b": {
@@ -1693,6 +1807,9 @@
 	"ca208216-99f0-43d1-900d-cb0924223b65": {
 		"title": "obj_harvests_trees_pine02_p09"
 	},
+	"cb529af8-14b9-11ed-861d-0242ac120002": {
+		"title": "Wood Wedge 1"
+	},
 	"cb7305b2-d8b5-4302-aff3-6cdd9212ca64": {
 		"description": "Mechanics love a cold sunshake when thirsty.",
 		"title": "Sunshake"
@@ -1720,6 +1837,9 @@
 	},
 	"ce66734b-2122-460e-94dc-ccc73d799e32": {
 		"title": "Slippery Surface Sign"
+	},
+	"cf41bd2d-8bd3-432b-8a92-a36eda7e7740": {
+		"title": "obj_tool_sledgehammer"
 	},
 	"cf46678b-c947-4267-ba85-f66930f5faa4": {
 		"description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
@@ -1772,6 +1892,7 @@
 		"title": "Gasoline"
 	},
 	"d4e6c84c-a493-44b1-81aa-4f4741ea3ed8": {
+		"description": "It's busted. Maybe it can be used as a secret storage instead?",
 		"title": "Broken Microwave"
 	},
 	"d740a27d-cc0f-4866-9e07-6a5c516ad719": {
@@ -1885,6 +2006,9 @@
 	"e7eae129-9e3f-45d2-997c-637865c60a5e": {
 		"title": "Water Tank"
 	},
+	"e83cd904-14b8-11ed-861d-0242ac120002": {
+		"title": "Concrete Wedge 1"
+	},
 	"e846e3e7-b608-49c9-bbfd-e0bb859e6d3c": {
 		"title": "Warehouse Ventilation Tee"
 	},
@@ -1980,6 +2104,9 @@
 	},
 	"f1831414-735f-4323-834a-85d5953fc160": {
 		"title": "Small Steel Bracket"
+	},
+	"f27cf05c-f6f9-43dc-93db-f810372110ec": {
+		"title": "Farmbot Target"
 	},
 	"f293a245-2415-4da5-b012-01134652611f": {
 		"title": "obj_robotparts_tapebotshooter"

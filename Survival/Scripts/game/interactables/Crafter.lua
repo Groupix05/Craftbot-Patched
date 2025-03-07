@@ -7,13 +7,8 @@ dofile "$SURVIVAL_DATA/Scripts/game/util/pipes.lua"
 Crafter = class( nil )
 Crafter.colorNormal = sm.color.new( 0x84ff32ff )
 Crafter.colorHighlight = sm.color.new( 0xa7ff4fff )
---local LockItems = true --Lock items depending on level (DO NOT SET THIS TO TRUE. THIS FEATURE IS NOT FINISHED!)
+
 local hasPlrContainers = false
-local anyOfIngredients = {
-	-- Seed
-	[tostring( anyof_seed )] = sm.item.getPlantableUuids(),
-	[tostring( anyof_glass )] = {blk_glass, blk_glasstile, blk_armoredglass}
-}
 
 local crafters = {
 	-- Workbench
@@ -46,8 +41,7 @@ local crafters = {
 		recipeSets = {
 			{ name = "cookbot", locked = false }
 		},
-		subTitle = "Cookbot",
-		createGuiFunction = sm.gui.createCookBotGui
+		subTitle = "Cookbot"
 	},
 	-- Craftbot 1
 	[tostring( obj_craftbot_craftbot1 )] = {
@@ -57,11 +51,6 @@ local crafters = {
 		upgrade = tostring( obj_craftbot_craftbot2 ),
 		upgradeCost = 5,
 		recipeSets = {
-		--	{ name = "craftbot1", locked = false },
-		--	{ name = "craftbot1_locked", locked = true },
-		--	{ name = "craftbot2_locked", locked = true },
-		--	{ name = "craftbot3_locked", locked = true },
-		--	{ name = "craftbot4_locked", locked = true }
 			{ name = "craftbot", locked = false }
 		},
 		subTitle = "#{LEVEL} 1",
@@ -75,10 +64,6 @@ local crafters = {
 		upgrade = tostring( obj_craftbot_craftbot3 ),
 		upgradeCost = 5,
 		recipeSets = {
-			--{ name = "craftbot2", locked = false },
-			--{ name = "craftbot2_locked", locked = true },
-			--{ name = "craftbot3_locked", locked = true },
-			--{ name = "craftbot4_locked", locked = true }
 			{ name = "craftbot", locked = false }
 		},
 		subTitle = "#{LEVEL} 2",
@@ -92,9 +77,6 @@ local crafters = {
 		upgrade = tostring( obj_craftbot_craftbot4 ),
 		upgradeCost = 5,
 		recipeSets = {
-			--{ name = "craftbot3", locked = false },
-			--{ name = "craftbot3_locked", locked = true },
-			--{ name = "craftbot4_locked", locked = true }
 			{ name = "craftbot", locked = false }
 		},
 		subTitle = "#{LEVEL} 3",
@@ -104,12 +86,10 @@ local crafters = {
 	[tostring( obj_craftbot_craftbot4 )] = {
 		needsPower = false,
 		slots = 8,
-		speed = 1.1,
+		speed = 1,
 		upgrade = tostring( obj_craftbot_craftbot5 ),
 		upgradeCost = 20,
 		recipeSets = {
-			--{ name = "craftbot4", locked = false },
-			--{ name = "craftbot4_locked", locked = true }
 			{ name = "craftbot", locked = false }
 		},
 		subTitle = "#{LEVEL} 4",
@@ -119,9 +99,8 @@ local crafters = {
 	[tostring( obj_craftbot_craftbot5 )] = {
 		needsPower = false,
 		slots = 8,
-		speed = 2.2,
+		speed = 2,
 		recipeSets = {
-			--{ name = "craftbot5", locked = false }
 			{ name = "craftbot", locked = false }
 		},
 		subTitle = "#{LEVEL} 5",
@@ -139,44 +118,8 @@ local crafters = {
 		subTitle = "Recycle items here!",
 		craftBtnText = "RECYCLE THIS ITEM",
 		createGuiFunction = sm.gui.createCraftBotGui
-	},
-	-- tapingbot
-	[tostring( obj_craftbot_tapingebot )] = {
-		needsPower = true,
-		slots = 8,
-		speed = 1,
-		recipeSets = {
-			{ name = "tapingbot", locked = false }
-		},
-		title = "TAPING BOT",
-		subTitle = "Workbench",
-		craftBtnText = "TAPE",
-		createGuiFunction = sm.gui.createWorkbenchGui
-	},
-	-- tapingbot deactivated
-	[tostring( obj_craftbot_tapingebot_deactivated )] = {
-		needsPower = true,
-		slots = 1,
-		speed = 1,
-		recipeSets = {
-			{ name = "tapingbot_deactivated", locked = false },
-			{ name = "workbench", locked = false }
-		},
-		upgrade = tostring( obj_craftbot_tapingebot ),
-		upgradeCost = 5,
-		title = "TAPING BOT BROKEN",
-		subTitle = "Workbench",
-		craftBtnText = "Fix bot",
-		createGuiFunction = sm.gui.createWorkbenchGui
 	}
 }
-
---[[if LockItems == false then
-	crafters[tostring( obj_craftbot_craftbot1 )].recipeSets = {{ name = "craftbot5", locked = false }}
-	crafters[tostring( obj_craftbot_craftbot2 )].recipeSets = {{ name = "craftbot5", locked = false }}
-	crafters[tostring( obj_craftbot_craftbot3 )].recipeSets = {{ name = "craftbot5", locked = false }}
-	crafters[tostring( obj_craftbot_craftbot4 )].recipeSets = {{ name = "craftbot5", locked = false }}
-end--]]
 
 local effectRenderables = {
 	[tostring( obj_consumable_carrotburger )] = { char_cookbot_food_03, char_cookbot_food_04 },
@@ -288,35 +231,6 @@ function Crafter.sv_updateStorage( self )
 		self.sv.storageDataDirty = false
 	end
 end
-
-
-
-
-
-
-
-
-
-function Crafter.countAnyOfIngredients(containers)
-	items = {}
-	for k in pairs(anyOfIngredients) do
-		items[k] = 0
-	end
-	for _, container in ipairs(containers) do
-		for k,v in pairs(anyOfIngredients) do
-			for _, uuid in pairs(v) do
-				items[k] = items[k] + sm.container.totalQuantity(container, uuid)
-			end
-		end
-	end
-	return items
-end
-
-
-
-
-
-
 
 function Crafter.sv_buildPipesAndContainerGraph( self )
 
@@ -492,7 +406,7 @@ function Crafter.cl_init( self )
 		self.cl.quaternaryEffects["craft_finish"] = sm.effect.createEffect( "ShapeRenderable", self.interactable, "food02_jnt" )
 
 
-	elseif shapeUuid == obj_survivalobject_workbench or shapeUuid == obj_craftbot_tapingebot or shapeUuid == obj_craftbot_tapingebot_deactivated then
+	elseif shapeUuid == obj_survivalobject_workbench then
 
 		self.cl.mainEffects["craft_loop"] = sm.effect.createEffect( "Workbench - Work01", self.interactable )
 		self.cl.mainEffects["craft_finish"] = sm.effect.createEffect( "Workbench - Finish", self.interactable )
@@ -505,7 +419,7 @@ function Crafter.cl_init( self )
 
 	end
 
-	self:cl_setupUI( tostring( self.shape:getShapeUuid() ) )
+	self:cl_setupUI()
 
 	self.cl.pipeGraphs = { output = { containers = {}, pipes = {} }, input = { containers = {}, pipes = {} } }
 
@@ -513,7 +427,7 @@ function Crafter.cl_init( self )
 	self.cl.pipeEffectPlayer:onCreate()
 end
 
-function Crafter.cl_setupUI( self, stringUuid )
+function Crafter.cl_setupUI( self )
 	self.cl.guiInterface = self.crafter.createGuiFunction()
 
 	self.cl.guiInterface:setButtonCallback( "Upgrade", "cl_onUpgrade" )
@@ -659,55 +573,6 @@ function Crafter.server_onFixedUpdate( self )
 			end
 		end
 	end
-
-	if hasPlrContainers then
-		if #self.sv.pipeGraphs.input.containers > 0 then
-			local containers = {}
-			for _, val in ipairs( self.sv.pipeGraphs.input.containers ) do
-				table.insert( containers, val.shape:getInteractable():getContainer( 0 ) )
-			end
-			items = self.countAnyOfIngredients(containers)
-
-			if not self.sv.virtualPlrContainers[1] then
-				self.sv.virtualPlrContainers[1] = self.shape:getInteractable():addContainer( 0, 10, 100000 )
-				self.sv.saved.virtualPlrContainers = self.sv.virtualPlrContainers
-				self.storage:save( self.sv.saved )
-			end
-			virtualContainer = self.sv.virtualPlrContainers[1]
-			num = 0
-
-			sm.container.beginTransaction()
-			for k,v in pairs(items) do
-				sm.container.setItem(virtualContainer, num, sm.uuid.new(k), v)
-				num = num+1
-			end
-			sm.container.endTransaction()
-
-			for _,plr in pairs(sm.player.getAllPlayers()) do
-				self.sv.virtualPlrContainers[plr.id] = virtualContainer
-			end
-		else
-			for _,plr in pairs(sm.player.getAllPlayers()) do
-				if not self.sv.virtualPlrContainers[plr.id] then
-					self.sv.virtualPlrContainers[plr.id] = self.shape:getInteractable():addContainer( 0, 10, 100000 )
-					self.sv.saved.virtualPlrContainers = self.sv.virtualPlrContainers
-					self.storage:save( self.sv.saved )
-				end
-				virtualContainer = self.sv.virtualPlrContainers[plr.id]
-				inventory = plr:getInventory()
-				items = self.countAnyOfIngredients({inventory})
-				num = 0
-				sm.container.beginTransaction()
-				for k,v in pairs(items) do
-					sm.container.setItem(virtualContainer, num, sm.uuid.new(k), v)
-					num = num+1
-				end
-				sm.container.endTransaction()
-				self.sv.virtualPlrContainers[plr.id] = virtualContainer
-			end
-		end
-	end
-
 	self:sv_sendClientData()
 	self:sv_updateStorage()
 end
@@ -772,26 +637,6 @@ function Crafter.client_onUpdate( self, deltaTime )
 				if val.time >= 0 and val.time < recipeCraftTime then -- The one beeing crafted
 					isCrafting = true
 					craftTimeRemaining = ( recipeCraftTime - val.time ) / 40
-				end
-
-				if guiActive and self.interactable.shape.uuid ~= obj_survivalobject_dispenserbot then
-					local gridItem = {}
-					gridItem.itemId = recipe.itemId
-					gridItem.craftTime = recipeCraftTime
-					gridItem.remainingTicks = recipeCraftTime - clamp( val.time, 0, recipeCraftTime )
-					gridItem.locked = false
-					gridItem.repeating = val.loop
-					self.cl.guiInterface:setGridItem( "ProcessGrid", idx - 1, gridItem )
-				end
-			else
-				if guiActive and self.interactable.shape.uuid ~= obj_survivalobject_dispenserbot then
-					local gridItem = {}
-					gridItem.itemId = "00000000-0000-0000-0000-000000000000"
-					gridItem.craftTime = 0
-					gridItem.remainingTicks = 0
-					gridItem.locked = false
-					gridItem.repeating = false
-					self.cl.guiInterface:setGridItem( "ProcessGrid", idx - 1, gridItem )
 				end
 			end
 		end
@@ -1185,6 +1030,12 @@ function Crafter.client_onInteract( self, character, state )
 			end
 
 			self.cl.guiInterface:setText( "SubTitle", self.crafter.subTitle )
+			if self.interactable.shape.uuid == obj_craftbot_recyclebot then
+                self.cl.guiInterface:setVisible("RecyclebotBG", true)
+                self.cl.guiInterface:setVisible("CraftbotBG", false)
+            else
+				self.cl.guiInterface:setVisible("CraftbotBG", true)
+			end
 			self.cl.guiInterface:open()
 
 			local pipeConnection = #self.cl.pipeGraphs.output.containers > 0
@@ -1290,20 +1141,8 @@ function Crafter.sv_craft( self, params, player )
 
 				for _, container in ipairs( self.sv.pipeGraphs.input.containers ) do
 					if consumeCount > 0 then
-						if anyOfIngredients[tostring(ingredient.itemId)] then
-							local types = anyOfIngredients[tostring(ingredient.itemId)]
-							for _, type in pairs(types) do
-								if consumeCount > 0 then
-									consumeCount = consumeCount - sm.container.spend( container.shape:getInteractable():getContainer(), type, consumeCount, false )
-									table.insert( containerArray, { shapesOnContainerPath = container.shapesOnContainerPath, itemId = type } )
-								else
-									break
-								end
-							end
-						else
-							consumeCount = consumeCount - sm.container.spend( container.shape:getInteractable():getContainer(), ingredient.itemId, consumeCount, false )
-							table.insert( containerArray, { shapesOnContainerPath = container.shapesOnContainerPath, itemId = ingredient.itemId } )
-						end
+						consumeCount = consumeCount - sm.container.spend( container.shape:getInteractable():getContainer(), ingredient.itemId, consumeCount, false )
+                        table.insert( containerArray, { shapesOnContainerPath = container.shapesOnContainerPath, itemId = ingredient.itemId } )
 					else
 						break
 					end
@@ -1316,25 +1155,7 @@ function Crafter.sv_craft( self, params, player )
 				end
 			else
 				if player and sm.game.getLimitedInventory() then
-					local consumeCount = ingredient.quantity
-
-					if anyOfIngredients[tostring(ingredient.itemId)] then
-						local types = anyOfIngredients[tostring(ingredient.itemId)]
-						for _, type in pairs(types) do
-							if consumeCount > 0 then
-								consumeCount = consumeCount - sm.container.spend( player:getInventory(), type, consumeCount, false )
-							else
-								break
-							end
-						end
-					else
-						consumeCount = consumeCount - sm.container.spend( player:getInventory(), ingredient.itemId, consumeCount )
-					end
-					if consumeCount > 0 then
-						print("Could not consume enough of ", ingredient.itemId, " Needed ", consumeCount, " more")
-						sm.container.abortTransaction()
-						return
-					end
+					sm.container.spend( player:getInventory(), ingredient.itemId, ingredient.quantity )
 				end
 			end
 		end
@@ -1532,5 +1353,3 @@ Dispenser.maxParentCount = 1
 Dispenser.connectionInput = sm.interactable.connectionType.logic
 
 Craftbot = class( Crafter )
-
-Cookbot = class( Crafter )

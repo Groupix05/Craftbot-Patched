@@ -69,7 +69,7 @@
 								"textureList": [
 									"$SURVIVAL_DATA/Character/Char_keycardreader/char_keycard_screen_dif.tga",
 									"$SURVIVAL_DATA/Character/Char_keycardreader/char_keycard_screen_asg.tga",
-									"$SURVIVAL_DATA/Character/Char_keycardreader/char_keycard_screen_nor.tga"
+									"$GAME_DATA/Textures/Materialtextures/normal_nor.tga"
 								],
 								"material": "UVAnimDifAsgNor",
 								"custom": {
@@ -239,7 +239,7 @@
 								"textureList": [
 									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
 									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
-									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+									"$GAME_DATA/Textures/Materialtextures/normal_nor.tga"
 								],
 								"material": "Glass"
 							},

@@ -2,8 +2,12 @@
 <MyGUI type="Layout" version="3.2.0">
     <Widget type="Widget" skin="PanelEmpty" align="Default" name="BackPanel" position_real="0.1 0 0.75 0.805556">
         <Property key="NeedKey" value="false" />
-        <Widget type="Widget" skin="BackgroundWorkbench" position_real="0 0 0.554167 0.781034">
+        <Widget type="Widget" skin="BackgroundWorkbenchbig" position_real="0 0 0.554167 0.781034">
             <Property key="NeedKey" value="false" />
+            <Widget type="ImageBox" skin="ImageBox" name="WorkbenchBG" position_real="0 0 1 1">
+                <Property key="ImageTexture" value="gui_background_workbench_big.png" />
+                <Property key="Visible" value="true" />
+            </Widget>
             <Widget type="ItemBox" skin="InventoryItemBox2" name="RecipeGrid" position_real="0.0827068 0.401766 0.834586 0.490066">
                 <Property key="NeedKey" value="false" />
                 <Property key="NeedToolTip" value="true" />

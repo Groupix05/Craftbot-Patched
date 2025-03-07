@@ -261,11 +261,13 @@
 				]
 			},
 			"color": "a4b3b7",
-			"hull": {
-				"x": 1,
-				"y": 1,
-				"z": 1,
-				"col": "$GAME_DATA/Objects/Collision/obj_fittings_ductpipe.obj"
+			"wedge" :
+			{
+				"back" : "-Z",
+				"bottom" : "-Y",
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
 			},
 			"rotationSet": "PropYZ",
 			"sticky": "-Y-Z",
@@ -550,7 +552,7 @@
 			"physicsMaterial": "Metal",
 			"ratings": {
 				"density": 4,
-				"durability": 5,
+				"durability": 4,
 				"friction": 5,
 				"buoyancy": 3
 			},
@@ -590,7 +592,7 @@
 			"physicsMaterial": "Metal",
 			"ratings": {
 				"density": 4,
-				"durability": 5,
+				"durability": 4,
 				"friction": 5,
 				"buoyancy": 3
 			},
@@ -630,7 +632,7 @@
 			"physicsMaterial": "Metal",
 			"ratings": {
 				"density": 4,
-				"durability": 5,
+				"durability": 4,
 				"friction": 5,
 				"buoyancy": 3
 			},
@@ -670,7 +672,7 @@
 			"physicsMaterial": "Metal",
 			"ratings": {
 				"density": 4,
-				"durability": 5,
+				"durability": 4,
 				"friction": 5,
 				"buoyancy": 3
 			},
@@ -851,11 +853,13 @@
 				]
 			},
 			"color": "2b3f70",
-			"hull": {
-				"x": 2,
-				"y": 1,
-				"z": 1,
-				"col": "$GAME_DATA/Objects/Collision/obj_fittings_wireconvexbend.obj"
+			"wedge" :
+			{
+				"back" : "-Z",
+				"bottom" : "-Y",
+				"x" : 2,
+				"y" : 1,
+				"z" : 1
 			},
 			"rotationSet": "PropY",
 			"sticky": "-Y-Z",

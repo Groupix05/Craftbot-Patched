@@ -4,12 +4,23 @@
         <Property key="NeedKey" value="false" />
         <Property key="NeedMouse" value="false" />
         <Property key="InheritsPick" value="true" />
-        <Widget type="ImageBox" skin="BackgroundCraftbot" name="BackgroundCraftbotImage" position_real="0 0 0.795019 1">
+        <Widget type="ImageBox" skin="BackgroundCraftbot" position_real="0 0 0.795019 1">
             <Property key="NeedKey" value="false" />
-            <Widget type="TextBox" skin="TextBox" name="CRAFTBOT_TITLE" position_real="0.407229 0.111475 0.20241 0.042623">
+            <Widget type="ImageBox" skin="ImageBox" name="RecyclebotBG" position_real="0 0 1 1">
+                <Property key="ImageTexture" value="RecyclebotBG.png" />
+                <Property key="Visible" value="false" />
+                    <Widget type="TextBox" skin="TextBox" position_real="0.317229 0.111475 0.40241 0.042623">
+                        <Property key="FontName" value="SM_HeaderLarge_Wide" />
+                        <Property key="Caption" value="RECYCLEBOT" />
+                        <Property key="TextAlign" value="Center" />
+                    </Widget>
+            </Widget>
+            
+            <Widget type="TextBox" skin="TextBox" name="CraftbotBG" position_real="0.407229 0.111475 0.20241 0.042623">
                 <Property key="FontName" value="SM_HeaderLarge_Wide" />
                 <Property key="Caption" value="#{CRAFTBOT_TITLE}" />
                 <Property key="TextAlign" value="Center" />
+                <Property key="Visible" value="true" />
             </Widget>
             <Widget type="Button" skin="CraftbotTab" name="All" position_real="0.060241 0.24918 0.113253 0.0491803">
                 <Property key="NeedKey" value="false" />
@@ -130,19 +141,19 @@
                     <Property key="NeedMouse" value="false" />
                 </Widget>
             </Widget>
-            <Widget type="ItemBox" skin="InventoryItemBox2" name="RecipeGrid" position_real="0.0626506 0.340984 0.891566 0.42623">
+            <Widget type="ItemBox" skin="InventoryItemBox2" name="RecipeGrid" position_real="0.0626506 0.305984 0.891566 0.48623">
                 <Property key="NeedKey" value="false" />
                 <Property key="NeedToolTip" value="true" />
             </Widget>
-            <Widget type="ItemBox" skin="InventoryItemBox2" name="SearchResultGrid" position_real="0.0626506 0.340984 0.891566 0.42623">
+            <Widget type="ItemBox" skin="InventoryItemBox2" name="SearchResultGrid" position_real="0.0626506 0.305984 0.891566 0.48623">
                 <Property key="NeedKey" value="false" />
                 <Property key="NeedToolTip" value="true" />
             </Widget>
-            <Widget type="ScrollBar" skin="CraftbotVSlider" name="Slider" position_real="0.966265 0.344262 0.0216867 0.419672">
+            <Widget type="ScrollBar" skin="CraftbotVSlider" name="Slider" position_real="0.966265 0.324262 0.0216867 0.459672">
                 <Property key="Range" value="100" />
                 <Property key="RangePosition" value="5" />
             </Widget>
-            <Widget type="TextBox" skin="TextBox" name="SubTitle" position_real="0.407229 0.155738 0.20241 0.0327869">
+            <Widget type="TextBox" skin="TextBox" name="SubTitle" position_real="0.357229 0.155738 0.30241 0.0327869">
                 <Property key="Caption" value="#{LEVEL} 12345" />
                 <Property key="FontName" value="SM_SubHeader" />
                 <Property key="TextAlign" value="Center" />
@@ -183,14 +194,14 @@
                 <Property key="Static" value="true" />
                 <Property key="TextAlign" value="Left Bottom" />
             </Widget>
-            <Widget type="EditBox" skin="EditBoxEmpty" name="ItemDescription" position_real="0.07 0.564912 0.81 0.140351">
+            <Widget type="EditBox" skin="EditBoxEmpty" name="ItemDescription" position_real="0.07 0.564912 0.81 0.165351">
                 <Property key="Static" value="true" />
                 <Property key="ReadOnly" value="true" />
                 <Property key="WordWrap" value="true" />
                 <Property key="TextShadowColour" value="0 0 0" />
                 <Property key="FontName" value="SM_TextTiny" />
                 <Property key="TextColour" value="0.564706 0.572549 0.572549" />
-                <Property key="NeedKey" value="false" />
+                <Property key="NeedKey" value="true" />
             </Widget>
             <Widget type="TextBox" skin="TextBox" position_real="0.07 0.522807 0.86 0.0245614">
                 <Property key="FontName" value="SM_LabelTiny" />
@@ -452,7 +463,7 @@
                 <Property key="TextAlign" value="Right VCenter" />
                 <Property key="TextColour" value="1 0.815686 0.27451" />
             </Widget>
-            <Widget type="ScrollBar" skin="InventoryVSliderSmall" name="DescriptionSlider" position_real="0.88 0.557895 0.09 0.15614">
+            <Widget type="ScrollBar" skin="InventoryVSliderSmall" name="DescriptionSlider" position_real="0.88 0.557895 0.09 0.16614">
                 <Property key="Range" value="100" />
             </Widget>
         </Widget>

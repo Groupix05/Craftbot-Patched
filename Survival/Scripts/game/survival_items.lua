@@ -1,13 +1,6 @@
 -- this file is generated
 
 obj_craftbot_recyclebot = sm.uuid.new( "b0b933d1-8112-4383-be48-7b6e37d38c53" )
-obj_craftbot_tapingebot_deactivated = sm.uuid.new( "c1de3e95-e1e9-4185-b868-557390f94399" )
-obj_craftbot_tapingebot = sm.uuid.new( "f16c5c94-ae7d-4cd8-b046-26a4df1903c6" )
-
-img_fixtapingbot = sm.uuid.new( "f7d689eb-a198-45be-b12a-103dc06d02fe" )
-
-anyof_seed = sm.uuid.new( "713705a4-db7d-4485-a268-f9b4cb2885a8" )
-anyof_glass = sm.uuid.new( "0c44e6cb-90c5-48bd-b717-c7a210cee110" )
 
 obj_pneumatic_pipe_T = sm.uuid.new( "87d7c020-8593-4b34-98fe-fa779b30b964" )
 obj_pneumatic_pipe_cross = sm.uuid.new( "97e273a2-3bf6-11eb-adc1-0242ac120002" )

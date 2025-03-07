@@ -1,4 +1,5 @@
 // this file is not generated
+// Wedges recipes are inspired by 00Fant B&P mod. Those crafts will not be included in the B&P version of the mod.
 [
 	{
 		"itemId": "b0b933d1-8112-4383-be48-7b6e37d38c53", //obj_craftbot_recyclebot
@@ -30,7 +31,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
+				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39" //blk_scrapmetal
 			},
 			{
 				"quantity": 2,
@@ -45,11 +46,11 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 5,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110"
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 3,
@@ -64,7 +65,7 @@
 		"ingredientList": [
 			{
 				"quantity": 20,
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" //blk_metal2
 			},
 			{
 				"quantity": 5,
@@ -83,7 +84,7 @@
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811"
+				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811" //blk_scrapwood
 			}
 		]
 	},
@@ -94,7 +95,7 @@
 		"ingredientList": [
 			{
 				"quantity": 15,
-				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811"
+				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811" //blk_scrapwood
 			}
 		]
 	},
@@ -105,11 +106,11 @@
 		"ingredientList": [
 			{
 				"quantity": 15,
-				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" //blk_wood1
 			},
 			{
 				"quantity": 1,
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" //blk_metal2
 			}
 		]
 	},
@@ -120,11 +121,11 @@
 		"ingredientList": [
 			{
 				"quantity": 15,
-				"itemId": "1897ee42-0291-43e4-9645-8c5a5d310398"
+				"itemId": "1897ee42-0291-43e4-9645-8c5a5d310398" //blk_wood2
 			},
 			{
 				"quantity": 1,
-				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
+				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46" //blk_metal3
 			}
 		]
 	},
@@ -135,7 +136,7 @@
 		"ingredientList": [
 			{
 				"quantity": 15,
-				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
+				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39" //blk_scrapmetal
 			}
 		]
 	},
@@ -146,7 +147,7 @@
 		"ingredientList": [
 			{
 				"quantity": 15,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 1,
@@ -165,7 +166,7 @@
 		"ingredientList": [
 			{
 				"quantity": 20,
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" //blk_metal2
 			},
 			{
 				"quantity": 2,
@@ -184,7 +185,7 @@
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac" //blk_scrapstone
 			},
 			{
 				"quantity": 5,
@@ -203,11 +204,11 @@
 		"ingredientList": [
 			{
 				"quantity": 15,
-				"itemId": "a6c6ce30-dd47-4587-b475-085d55c6a3b4"
+				"itemId": "a6c6ce30-dd47-4587-b475-085d55c6a3b4" //blk_concrete1
 			},
 			{
 				"quantity": 2,
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" //blk_metal2
 			}
 		]
 	},
@@ -218,11 +219,11 @@
 		"ingredientList": [
 			{
 				"quantity": 15,
-				"itemId": "ff234e42-5da4-43cc-8893-940547c97882"
+				"itemId": "ff234e42-5da4-43cc-8893-940547c97882" //blk_concrete2
 			},
 			{
 				"quantity": 2,
-				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
+				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46" //blk_metal3
 			}
 		]
 	},
@@ -233,7 +234,7 @@
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac" //blk_scrapstone
 			}
 		]
 	},
@@ -244,7 +245,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b"
+				"itemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b"//blk_sand
 			},
 			{
 				"quantity": 1,
@@ -259,7 +260,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b"
+				"itemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b"//blk_sand
 			},
 			{
 				"quantity": 1,
@@ -274,11 +275,11 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110"
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 2,
-				"itemId": "4aa2a6f0-65a4-42e3-bf96-7dec62570e0b"
+				"itemId": "4aa2a6f0-65a4-42e3-bf96-7dec62570e0b" //blk_metalnet
 			},
 			{
 				"quantity": 1,
@@ -293,7 +294,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -304,7 +305,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 1,
@@ -319,7 +320,7 @@
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -330,7 +331,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "25a5ffe7-11b1-4d3e-8d7a-48129cbaf05e" ////blk_beam
+				"itemId": "25a5ffe7-11b1-4d3e-8d7a-48129cbaf05e" //blk_beam
 			}
 		]
 	},
@@ -352,7 +353,7 @@
 		"ingredientList": [
 			{
 				"quantity": 3,
-				"itemId": "25a5ffe7-11b1-4d3e-8d7a-48129cbaf05e" ////blk_beam
+				"itemId": "25a5ffe7-11b1-4d3e-8d7a-48129cbaf05e" //blk_beam
 			},
 			{
 				"quantity": 2,
@@ -382,7 +383,7 @@
 		"ingredientList": [
 			{
 				"quantity": 2,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -393,7 +394,7 @@
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -404,7 +405,7 @@
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" //blk_metal2
 			}
 		]
 	},
@@ -437,7 +438,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" //blk_metal2
 			},
 			{
 				"quantity": 1,
@@ -452,7 +453,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac" //blk_scrapstone
 			}
 		]
 	},
@@ -474,7 +475,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac" //blk_scrapstone
 			},
 			{
 				"quantity": 1,
@@ -534,7 +535,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac" //blk_scrapstone
 			},
 			{
 				"quantity": 1,
@@ -549,7 +550,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" //blk_wood1
 			},
 			{
 				"quantity": 1,
@@ -595,13 +596,475 @@
 		]
 	},
 	{
+		"itemId": "a5a857de-14be-11ed-861d-0242ac120002", //wdg_scrapwood
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811" //blk_scrapwood
+			}
+		]
+	},
+	{
+		"itemId": "cb529af8-14b9-11ed-861d-0242ac120002", //wdg_wood1
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" //blk_wood1
+			}
+		]
+	},
+	{
+		"itemId": "5dae0b3a-14bf-11ed-861d-0242ac120002", //wdg_wood2
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1897ee42-0291-43e4-9645-8c5a5d310398" //blk_wood2
+			}
+		]
+	},
+	{
+		"itemId": "5dae0d42-14bf-11ed-861d-0242ac120002", //wdg_wood3
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "061b5d4b-0a6a-4212-b0ae-9e9681f1cbfb" //blk_wood3
+			}
+		]
+	},
+	{
+		"itemId": "5dae0e46-14bf-11ed-861d-0242ac120002", //wdg_scrapmetal
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39" //blk_scrapmetal
+			}
+		]
+	},
+	{
+		"itemId": "a358c216-14b9-11ed-861d-0242ac120002", //wdg_metal1
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
+			}
+		]
+	},
+	{
+		"itemId": "5dae0f2c-14bf-11ed-861d-0242ac120002", //wdg_metal2
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" //blk_metal2
+			}
+		]
+	},
+	{
+		"itemId": "5dae1008-14bf-11ed-861d-0242ac120002", //wdg_metal3
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46" //blk_metal3
+			}
+		]
+	},
+	{
+		"itemId": "e83cd904-14b8-11ed-861d-0242ac120002", //wdg_concrete1
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "a6c6ce30-dd47-4587-b475-085d55c6a3b4" //blk_concrete1
+			}
+		]
+	},
+	{
+		"itemId": "5dae15c6-14bf-11ed-861d-0242ac120002", //wdg_concrete2
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "ff234e42-5da4-43cc-8893-940547c97882" //blk_concrete2
+			}
+		]
+	},
+	{
+		"itemId": "5dae14e0-14bf-11ed-861d-0242ac120002", //wdg_concrete3
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "e281599c-2343-4c86-886e-b2c1444e8810" //blk_concrete3
+			}
+		]
+	},
+	{
+		"itemId": "3f2e92d0-14c7-11ed-861d-0242ac120002", //wdg_sand
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b" //blk_sand
+			}
+		]
+	},
+	{
+		"itemId": "3bb5dc9e-14bd-11ed-861d-0242ac120002", //wdg_glass
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
+			}
+		]
+	},
+	{
+		"itemId": "46ef860a-14bd-11ed-861d-0242ac120002", //wdg_glasstile
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "749f69e0-56c9-488c-adf6-66c58531818f" //blk_glasstile
+			}
+		]
+	},
+	{
+		"itemId": "32053708-14c7-11ed-861d-0242ac120002", //wdg_armoredglass
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "b5ee5539-75a2-4fef-873b-ef7c9398b3f5" //blk_armoredglass
+			}
+		]
+	},
+	{
+		"itemId": "996b107e-14be-11ed-861d-0242ac120002", //wdg_lights
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "073f92af-f37e-4aff-96b3-d66284d5081c" //blk_lights
+			}
+		]
+	},
+	{
+		"itemId": "396c8a9a-14be-11ed-861d-0242ac120002", //wdg_spaceshipmetal
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "027bd4ec-b16d-47d2-8756-e18dc2af3eb6" //blk_spaceshipmetal
+			}
+		]
+	},
+	{
+		"itemId": "5d5144be-14be-11ed-861d-0242ac120002", //wdg_cardboard
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "f0cba95b-2dc4-4492-8fd9-36546a4cb5aa" //blk_cardboard
+			}
+		]
+	},
+	{
+		"itemId": "5dae16a2-14bf-11ed-861d-0242ac120002", //wdg_scrapstone
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac" //blk_scrapstone
+			}
+		]
+	},
+	{
+		"itemId": "5dae13f0-14bf-11ed-861d-0242ac120002", //wdg_crackedconcrete
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "f5ceb7e3-5576-41d2-82d2-29860cf6e20e" //blk_crackedconcrete
+			}
+		]
+	},
+	{
+		"itemId": "9404a6a2-14c0-11ed-861d-0242ac120002", //wdg_concretetiles
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "cd0eff89-b693-40ee-bd4c-3500b23df44e" //blk_concretetiles
+			}
+		]
+	},
+	{
+		"itemId": "a29f7ce6-14c0-11ed-861d-0242ac120002", //wdg_metalbricks
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "220b201e-aa40-4995-96c8-e6007af160de" //blk_metalbricks
+			}
+		]
+	},
+	{
+		"itemId": "a29f7c00-14c0-11ed-861d-0242ac120002", //wdg_beam
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "25a5ffe7-11b1-4d3e-8d7a-48129cbaf05e" //blk_beam
+			}
+		]
+	},
+	{
+		"itemId": "5115b997-5d8c-4815-8e07-f487cc1c029f", //wdg_bubblewrap
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "f406bf6e-9fd5-4aa0-97c1-0b3c2118198e" //blk_bubblewrap
+			}
+		]
+	},
+	{
+		"itemId": "bf3de7c4-14c1-11ed-861d-0242ac120002", //wdg_insulation
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "9be6047c-3d44-44db-b4b9-9bcf8a9aab20" //blk_insulation
+			}
+		]
+	},
+	{
+		"itemId": "9acec674-14c1-11ed-861d-0242ac120002", //wdg_drywall
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "b145d9ae-4966-4af6-9497-8fca33f9aee3" //blk_drywall
+			}
+		]
+	},
+	{
+		"itemId": "9acecbec-14c1-11ed-861d-0242ac120002", //wdg_carpet
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "febce8a6-6c05-4e5d-803b-dfa930286944" //blk_carpet
+			}
+		]
+	},
+	{
+		"itemId": "9acecd22-14c1-11ed-861d-0242ac120002", //wdg_plasticwall
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "e981c337-1c8a-449c-8602-1dd990cbba3a" //blk_plasticwall
+			}
+		]
+	},
+	{
+		"itemId": "9acece58-14c1-11ed-861d-0242ac120002", //wdg_metalnet
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "4aa2a6f0-65a4-42e3-bf96-7dec62570e0b" //blk_metalnet
+			}
+		]
+	},
+	{
+		"itemId": "9acecf66-14c1-11ed-861d-0242ac120002", //wdg_crossnet
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "3d0b7a6e-5b40-474c-bbaf-efaa54890e6a" //blk_crossnet
+			}
+		]
+	},
+	{
+		"itemId": "4e72cd24-14c7-11ed-861d-0242ac120002", //wdg_tryponet
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "ea6864db-bb4f-4a89-b9ec-977849b6713a" //blk_tryponet
+			}
+		]
+	},
+	{
+		"itemId": "4e72ce8c-14c7-11ed-861d-0242ac120002", //wdg_stripednet
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "a479066d-4b03-46b5-8437-e99fec3f43ee" //blk_stripednet
+			}
+		]
+	},
+	{
+		"itemId": "27e9c9ee-14c4-11ed-861d-0242ac120002", //wdg_squarenet
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "b4fa180c-2111-4339-b6fd-aed900b57093" //blk_squarenet
+			}
+		]
+	},
+	{
+		"itemId": "56b4d3fc-14bc-11ed-861d-0242ac120002", //wdg_caution
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "09ca2713-28ee-4119-9622-e85490034758" //blk_caution
+			}
+		]
+	},
+	{
+		"itemId": "b67c82e4-14bc-11ed-861d-0242ac120002", //wdg_tiles
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "8ca49bff-eeef-4b43-abd0-b527a567f1b7" //blk_tiles
+			}
+		]
+	},
+	{
+		"itemId": "c01fbc1c-14bc-11ed-861d-0242ac120002", //wdg_bricks
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "0603b36e-0bdb-4828-b90c-ff19abcdfe34" //blk_bricks
+			}
+		]
+	},
+	{
+		"itemId": "27e9cc8c-14c4-11ed-861d-0242ac120002", //wdg_restroom
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "920b40c8-6dfc-42e7-84e1-d7e7e73128f6" //blk_restroom
+			}
+		]
+	},
+	{
+		"itemId": "27e9cdcc-14c4-11ed-861d-0242ac120002", //wdg_treadplate
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "f7d4bfed-1093-49b9-be32-394c872a1ef4" //blk_treadplate
+			}
+		]
+	},
+	{
+		"itemId": "27e9d236-14c4-11ed-861d-0242ac120002", //wdg_warehousefloor
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "3e3242e4-1791-4f70-8d1d-0ae9ba3ee94c" //blk_warehousefloor
+			}
+		]
+	},
+	{
+		"itemId": "3f2e8e84-14c7-11ed-861d-0242ac120002", //wdg_wornmetal
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "d740a27d-cc0f-4866-9e07-6a5c516ad719" //blk_wornmetal
+			}
+		]
+	},
+	{
+		"itemId": "3f2e9064-14c7-11ed-861d-0242ac120002", //wdg_spaceshipfloor
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "4ad97d49-c8a5-47f3-ace3-d56ba3affe50" //blk_spaceshipfloor
+			}
+		]
+	},
+	{
+		"itemId": "bf3de51c-14c1-11ed-861d-0242ac120002", //wdg_plastic
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "628b2d61-5ceb-43e9-8334-a4135566df7a" //blk_plastic
+			}
+		]
+	},
+	{
 		"itemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6", //jnt_bearing
 		"quantity": 1,
 		"craftTime": 12,
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
+				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39" //blk_scrapmetal
 			}
 		]
 	},
@@ -612,7 +1075,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
+				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39" //blk_scrapmetal
 			},
 			{
 				"quantity": 1,
@@ -646,7 +1109,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
+				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39" //blk_scrapmetal
 			},
 			{
 				"quantity": 1,
@@ -775,11 +1238,11 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 1,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110"
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 2,
@@ -798,7 +1261,7 @@
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" //blk_metal2
 			},
 			{
 				"quantity": 2,
@@ -813,7 +1276,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" //blk_metal2
 			},
 			{
 				"quantity": 2,
@@ -828,7 +1291,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" //blk_metal2
 			},
 			{
 				"quantity": 2,
@@ -851,7 +1314,7 @@
 		"ingredientList": [
 			{
 				"quantity": 20,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 5,
@@ -874,7 +1337,7 @@
 		"ingredientList": [
 			{
 				"quantity": 20,
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" //blk_metal2
 			},
 			{
 				"quantity": 5,
@@ -901,7 +1364,7 @@
 			},
 			{
 				"quantity": 5,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 3,
@@ -924,7 +1387,7 @@
 			},
 			{
 				"quantity": 5,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 2,
@@ -943,7 +1406,7 @@
 			},
 			{
 				"quantity": 5,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 3,
@@ -966,7 +1429,7 @@
 			},
 			{
 				"quantity": 5,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 2,
@@ -981,11 +1444,11 @@
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 5,
-				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" //blk_wood1
 			}
 		]
 	},
@@ -1015,7 +1478,7 @@
 		"ingredientList": [
 			{
 				"quantity": 40,
-				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
+				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46" //blk_metal3
 			},
 			{
 				"quantity": 10,
@@ -1030,7 +1493,7 @@
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 5,
@@ -1053,7 +1516,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 1,
@@ -1072,7 +1535,7 @@
 		"ingredientList": [
 			{
 				"quantity": 2,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 2,
@@ -1091,7 +1554,7 @@
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 2,
@@ -1114,7 +1577,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 1,
@@ -1133,11 +1596,11 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 1,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110"
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 2,
@@ -1160,7 +1623,7 @@
 			},
 			{
 				"quantity": 2,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110" //anyof_glass
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 3,
@@ -1183,7 +1646,7 @@
 			},
 			{
 				"quantity": 5,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110" //anyof_glass
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 4,
@@ -1206,7 +1669,7 @@
 			},
 			{
 				"quantity": 4,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110" //anyof_glass
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 3,
@@ -1229,7 +1692,7 @@
 			},
 			{
 				"quantity": 12,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110" //anyof_glass
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 8,
@@ -1252,7 +1715,7 @@
 			},
 			{
 				"quantity": 4,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110" //anyof_glass
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 3,
@@ -1275,7 +1738,7 @@
 			},
 			{
 				"quantity": 6,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110" //anyof_glass
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 5,
@@ -1298,7 +1761,7 @@
 			},
 			{
 				"quantity": 4,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110" //anyof_glass
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 3,
@@ -1321,7 +1784,7 @@
 			},
 			{
 				"quantity": 1,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110" //anyof_glass
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 2,
@@ -1344,7 +1807,7 @@
 			},
 			{
 				"quantity": 2,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110" //anyof_glass
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 2,
@@ -1428,7 +1891,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" //blk_metal2
 			},
 			{
 				"quantity": 1,
@@ -1447,7 +1910,7 @@
 		"ingredientList": [
 			{
 				"quantity": 50,
-				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" //blk_wood1
 			},
 			{
 				"quantity": 20,
@@ -1466,7 +1929,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 2,
@@ -1519,7 +1982,7 @@
 		"ingredientList": [
 			{
 				"quantity": 40,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 2,
@@ -1534,7 +1997,7 @@
 		"ingredientList": [
 			{
 				"quantity": 60,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 5,
@@ -1557,7 +2020,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" //blk_metal2
 			},
 			{
 				"quantity": 5,
@@ -1580,11 +2043,11 @@
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" //blk_metal2
 			},
 			{
 				"quantity": 10,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110"
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 2,
@@ -1599,11 +2062,11 @@
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" //blk_metal2
 			},
 			{
 				"quantity": 10,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110"
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 2,
@@ -1622,7 +2085,7 @@
 			},
 			{
 				"quantity": 10,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110" //anyof_glass
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 2,
@@ -1641,7 +2104,7 @@
 			},
 			{
 				"quantity": 10,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110" //anyof_glass
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 2,
@@ -1656,7 +2119,7 @@
 		"ingredientList": [
 			{
 				"quantity": 20,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 5,
@@ -1679,7 +2142,7 @@
 		"ingredientList": [
 			{
 				"quantity": 20,
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" //blk_metal2
 			},
 			{
 				"quantity": 10,
@@ -1702,7 +2165,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 10,
@@ -1725,11 +2188,11 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" //blk_metal2
 			},
 			{
 				"quantity": 20,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110"
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 5,
@@ -1794,7 +2257,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" //blk_metal2
 			},
 			{
 				"quantity": 10,
@@ -1813,11 +2276,11 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" //blk_metal2
 			},
 			{
 				"quantity": 20,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -1828,11 +2291,11 @@
 		"ingredientList": [
 			{
 				"quantity": 20,
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f" //blk_metal2
 			},
 			{
 				"quantity": 30,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -1854,11 +2317,11 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811"
+				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811" //blk_scrapwood
 			},
 			{
 				"quantity": 10,
-				"itemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b"
+				"itemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b"//blk_sand
 			},
 			{
 				"quantity": 2,
@@ -1873,7 +2336,7 @@
 		"ingredientList": [
 			{
 				"quantity": 30,
-				"itemId": "713705a4-db7d-4485-a268-f9b4cb2885a8" //anyof_seed
+				"itemId": "eb1ef696-5c05-4662-9e47-fe1e0875ff84" //potato_seed
 			}
 		]
 	},
@@ -1895,7 +2358,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
+				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39" //blk_scrapmetal
 			},
 			{
 				"quantity": 5,
@@ -2069,11 +2532,11 @@
 		"ingredientList": [
 			{
 				"quantity": 15,
-				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" //blk_wood1
 			},
 			{
 				"quantity": 5,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 6,
@@ -2088,11 +2551,11 @@
 		"ingredientList": [
 			{
 				"quantity": 40,
-				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" //blk_wood1
 			},
 			{
 				"quantity": 10,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 8,
@@ -2152,7 +2615,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2163,7 +2626,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2174,7 +2637,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2185,7 +2648,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2196,7 +2659,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2207,7 +2670,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2218,7 +2681,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2229,7 +2692,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2240,7 +2703,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2251,7 +2714,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2262,7 +2725,7 @@
 		"ingredientList": [
 			{
 				"quantity": 3,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2273,7 +2736,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2284,7 +2747,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2295,7 +2758,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2306,7 +2769,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2317,7 +2780,7 @@
 		"ingredientList": [
 			{
 				"quantity": 3,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2328,7 +2791,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2339,7 +2802,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2350,7 +2813,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2546,7 +3009,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2557,7 +3020,7 @@
 		"ingredientList": [
 			{
 				"quantity": 15,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2568,7 +3031,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2579,7 +3042,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2590,7 +3053,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2601,7 +3064,7 @@
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2612,7 +3075,7 @@
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2623,7 +3086,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2634,7 +3097,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -2645,7 +3108,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -3056,7 +3519,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -3067,7 +3530,7 @@
 		"ingredientList": [
 			{
 				"quantity": 3,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" 
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -3078,7 +3541,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -3089,7 +3552,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -3100,7 +3563,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -3465,7 +3928,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811"
+				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811" //blk_scrapwood
 			}
 		]
 	},
@@ -3476,7 +3939,7 @@
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -3491,7 +3954,7 @@
 			},
 			{
 				"quantity": 4,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110" //anyof_glass
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			}
 		]
 	},
@@ -3528,7 +3991,7 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			},
 			{
 				"quantity": 3,
@@ -3543,7 +4006,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -3618,7 +4081,7 @@
 			},
 			{
 				"quantity": 5,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110" //anyof_glass
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			}
 		]
 	},
@@ -4109,7 +4572,7 @@
 			},
 			{
 				"quantity": 6,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110" //anyof_glass
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 3,
@@ -4139,7 +4602,7 @@
 			},
 			{
 				"quantity": 2,
-				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" //blk_wood1
 			},
 			{
 				"quantity": 1,
@@ -4158,7 +4621,7 @@
 		"ingredientList": [
 			{
 				"quantity": 2,
-				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" //blk_wood1
 			},
 			{
 				"quantity": 1,
@@ -4177,7 +4640,7 @@
 		"ingredientList": [
 			{
 				"quantity": 1,
-				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" //blk_wood1
 			},
 			{
 				"quantity": 1,
@@ -4200,11 +4663,11 @@
 		"ingredientList": [
 			{
 				"quantity": 5,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110"
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 5,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -4215,11 +4678,11 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110"
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 10,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -4230,11 +4693,11 @@
 		"ingredientList": [
 			{
 				"quantity": 15,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110"
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 10,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -4245,11 +4708,11 @@
 		"ingredientList": [
 			{
 				"quantity": 20,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110"
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 10,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -4260,11 +4723,11 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110"
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 5,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -4441,7 +4904,7 @@
 		"ingredientList": [
 			{
 				"quantity": 12,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -4452,11 +4915,11 @@
 		"ingredientList": [
 			{
 				"quantity": 10,
-				"itemId": "0c44e6cb-90c5-48bd-b717-c7a210cee110"
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f" //blk_glass
 			},
 			{
 				"quantity": 5,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -4486,7 +4949,7 @@
 			},
 			{
 				"quantity": 5,
-				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac" //blk_scrapstone
 			}
 		]
 	},
@@ -4501,7 +4964,7 @@
 			},
 			{
 				"quantity": 5,
-				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac" //blk_scrapstone
 			}
 		]
 	},
@@ -4516,11 +4979,11 @@
 			},
 			{
 				"quantity": 5,
-				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac" //blk_scrapstone
 			},
 			{
 				"quantity": 2,
-				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" //blk_wood1
 			}
 		]
 	},
@@ -4535,7 +4998,7 @@
 			},
 			{
 				"quantity": 10,
-				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac" //blk_scrapstone
 			}
 		]
 	},
@@ -4550,7 +5013,7 @@
 			},
 			{
 				"quantity": 5,
-				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac" //blk_scrapstone
 			}
 		]
 	},
@@ -4565,7 +5028,7 @@
 			},
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -4580,7 +5043,7 @@
 			},
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -4595,7 +5058,7 @@
 			},
 			{
 				"quantity": 1,
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
 			}
 		]
 	},
@@ -5394,7 +5857,7 @@
 				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7" //obj_consumable_inkammo
 			},
 			{
-				"quantity": 2,
+				"quantity": 4,
 				"itemId": "6d92d8e7-25e9-4698-b83d-a64dc97978c8" //obj_plantables_tomato
 			}
 		]
@@ -5445,6 +5908,242 @@
 			{
 				"quantity": 10,
 				"itemId": "a6c6ce30-dd47-4587-b475-085d55c6a3b4" //blk_concrete
+			}
+		]
+	},
+	{
+		"itemId": "a2cf56fe-9961-481b-9a12-093f64867d9c", //warehouse_packingtablesupport
+		"quantity": 1,
+		"craftTime": 6,
+		"ingredientList": [
+			{
+				"quantity": 5,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
+			}
+		]
+	},
+	{
+		"itemId": "4db857f1-07dc-4ea2-9391-fd24903945d1", //warehouse_packingtable
+		"quantity": 1,
+		"craftTime": 10,
+		"ingredientList": [
+			{
+				"quantity": 5,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
+			},
+			{
+				"quantity": 5,
+				"itemId": "a6c6ce30-dd47-4587-b475-085d55c6a3b4" //blk_concrete
+			}
+		]
+	},
+	{
+		"itemId": "87a3bc6b-5eb3-43a3-871a-0cb42a415d64", //construction_wallplank
+		"quantity": 1,
+		"craftTime": 6,
+		"ingredientList": [
+			{
+				"quantity": 3,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
+			},
+			{
+				"quantity": 4,
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" //blk_wood1
+			}
+		]
+	},
+	{
+		"itemId": "de7a75db-207d-48fe-a385-fc4c61b40cf6", //construction_stairs
+		"quantity": 1,
+		"craftTime": 6,
+		"ingredientList": [
+			{
+				"quantity": 5,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
+			},
+			{
+				"quantity": 2,
+				"itemId": "628b2d61-5ceb-43e9-8334-a4135566df7a" //blk_plastic
+			}
+		]
+	},
+	{
+		"itemId": "93e32c6b-b9de-4fed-ad9d-49f0850ee634", //construction_wallpillar
+		"quantity": 1,
+		"craftTime": 6,
+		"ingredientList": [
+			{
+				"quantity": 3,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
+			},
+			{
+				"quantity": 4,
+				"itemId": "628b2d61-5ceb-43e9-8334-a4135566df7a" //blk_plastic
+			}
+		]
+	},
+	{
+		"itemId": "ec757a7d-a27b-4688-ae85-46167659bf00", //construction_ramp01
+		"quantity": 1,
+		"craftTime": 6,
+		"ingredientList": [
+			{
+				"quantity": 7,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
+			},
+			{
+				"quantity": 5,
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71" //blk_wood1
+			}
+		]
+	},
+	{
+		"itemId": "cbc6fc23-dcc9-4d6f-a7aa-9a3ae37ca41f", //warehouse_overheadcranerope
+		"quantity": 1,
+		"craftTime": 10,
+		"ingredientList": [
+			{
+				"quantity": 10,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
+			},
+			{
+				"quantity": 1,
+				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3" //obj_resource_circuitboard
+			}
+		]
+	},
+	{
+		"itemId": "ec334737-1467-4a29-a3b7-e04f662bca1b", //warehouse_overheadcranetrolley
+		"quantity": 1,
+		"craftTime": 10,
+		"ingredientList": [
+			{
+				"quantity": 10,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
+			},
+			{
+				"quantity": 4,
+				"itemId": "09ca2713-28ee-4119-9622-e85490034758" //blk_caution
+			},
+			{
+				"quantity": 3,
+				"itemId": "628b2d61-5ceb-43e9-8334-a4135566df7a" //blk_plastic
+			}
+		]
+	},
+			{
+		"itemId": "54ea2236-001c-4560-8e6d-3942a885bb3b", //warehouse_overheadcranearmplatform
+		"quantity": 1,
+		"craftTime": 10,
+		"ingredientList": [
+			{
+				"quantity": 10,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
+			},
+			{
+				"quantity": 3,
+				"itemId": "09ca2713-28ee-4119-9622-e85490034758" //blk_caution
+			}
+		]
+	},
+	{
+		"itemId": "8f5f8a39-734d-4bc3-8a9e-74026bcb3704", //warehouse_overheadcranearmplate
+		"quantity": 1,
+		"craftTime": 10,
+		"ingredientList": [
+			{
+				"quantity": 10,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
+			}
+		]
+	},
+					{
+		"itemId": "448d7d18-2a36-4749-8d73-3da913ae6aeb", //warehouse_overheadcranearm
+		"quantity": 1,
+		"craftTime": 10,
+		"ingredientList": [
+			{
+				"quantity": 10,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
+			},
+			{
+				"quantity": 5,
+				"itemId": "09ca2713-28ee-4119-9622-e85490034758" //blk_caution
+			}
+		]
+	},
+	{
+		"itemId": "2893e707-36b3-4ff1-bb3c-ef1b5524ae13", //warehouse_craneplatform
+		"quantity": 1,
+		"craftTime": 10,
+		"ingredientList": [
+			{
+				"quantity": 10,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
+			},
+			{
+				"quantity": 3,
+				"itemId": "628b2d61-5ceb-43e9-8334-a4135566df7a" //blk_plastic
+			}
+		]
+	},
+	{
+		"itemId": "96392e20-12e9-4a19-8dc5-7a8e33238ae2", //warehouse_cranehook
+		"quantity": 1,
+		"craftTime": 10,
+		"ingredientList": [
+			{
+				"quantity": 20,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
+			}
+		]
+	},
+	{
+		"itemId": "b7cf1762-4010-4915-813d-dfbefb100ef5", //warehouse_cranehook_base
+		"quantity": 1,
+		"craftTime": 10,
+		"ingredientList": [
+			{
+				"quantity": 10,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
+			},
+			{
+				"quantity": 5,
+				"itemId": "09ca2713-28ee-4119-9622-e85490034758" //blk_caution
+			},
+			{
+				"quantity": 3,
+				"itemId": "628b2d61-5ceb-43e9-8334-a4135566df7a" //blk_plastic
+			}
+		]
+	},
+	{
+		"itemId": "8aa4459f-6c45-41ae-94f4-4ddff0279c18", //obj_shootingrange_farmertarget
+		"quantity": 1,
+		"craftTime": 10,
+		"ingredientList": [
+			{
+				"quantity": 5,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
+			},
+			{
+				"quantity": 5,
+				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811" //blk_scrapwood
+			}
+		]
+	},
+	{
+		"itemId": "f27cf05c-f6f9-43dc-93db-f810372110ec", //obj_shootingrange_farmbottarget
+		"quantity": 1,
+		"craftTime": 10,
+		"ingredientList": [
+			{
+				"quantity": 5,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e" //blk_metal1
+			},
+			{
+				"quantity": 5,
+				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811" //blk_scrapwood
 			}
 		]
 	}
